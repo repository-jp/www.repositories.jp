@@ -1,0 +1,36 @@
+/*------------------------------------
+ *   Preloader
+ *------------------------------------*/
+.preloader
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  border-color: #EDEDED
+  z-index: 9001
+  height: 100%
+  width: 100%
+  overflow: hidden !important
+  visibility: visible
+  opacity: 1
+  transition-delay: 0s
+
+  >.loading
+    position: absolute
+    top: 50%
+    width: 100%
+    text-align: center
+    margin-top: -20px
+
+.site-loaded
+
+  .preloader
+    visibility: hidden
+    opacity: 0
+    transition: visibility 0s linear 1s, opacity 1s ease-in
+
+  .loading
+    visibility: hidden
+    opacity: 0
+    transition: visibility 0s linear .5s, opacity .5s ease-in

@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/skinoshita/Workspace/html/www.repositories.jp/dist/assets/js/app.min.js",
+        "/Users/skinoshita/Workspace/html/www.repositories.jp/src/vendor/jquery/src/var/pnum.js",
+        "/Users/skinoshita/Workspace/html/www.repositories.jp/src/vendor/jquery/src/var/push.js"
+    ]
+}

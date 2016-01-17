@@ -1,0 +1,33 @@
+/*------------------------------------
+ *  News   
+ *------------------------------------*/
+#news
+
+  .table
+
+    tr
+
+      td
+        font-size: 18px
+        padding-top: 15px
+        padding-bottom: 15px
+
+        @media only screen and (max-width: 768px)
+          font-size: 14px
+
+        @media (min-device-width: 768px) and (max-device-width: 1024px)
+          font-size: 14px
+
+        &:nth-child(2)
+          text-align: right
+
+        &:nth-child(3)
+          width: 20px
+
+        &:nth-child(4)
+          text-align: left
+
+      &:first-child
+
+        td
+          border-top: none

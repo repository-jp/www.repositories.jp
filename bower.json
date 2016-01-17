@@ -1,0 +1,13 @@
+{
+  "name": "webapp",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.0",
+    "css-spinners": "~2.2.0",
+    "waitForImages": "~2.1.0",
+    "background-video": "*",
+    "font-awesome-sass": "~4.5.0",
+    "jQuery-One-Page-Nav": "~3.0.0"
+  },
+  "devDependencies": {}
+}
